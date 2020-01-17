@@ -2,6 +2,10 @@
     display: none;
 }
 
+.container {
+    text-align: center; 
+}
+
 .jumbotron {
     background-color: rgb(178, 223)83, 1;
     color: white;
@@ -22,7 +26,7 @@
     font-size: 18px;
 }
 
-input[type='radio']:after {
+/* input[type='radio']:after {
     width: 15px;
     height: 15px;
     border-radius: 15px;
@@ -33,8 +37,8 @@ input[type='radio']:after {
     content: '';
     display: inline-block;
     visibility: visible;
-    border: 2px solid rgb(8, 50, 238);
-}
+    border: 2px solid rgb(238, 146, 8);
+} */
 
 input[type='radio']:checked:after {
     width: 15px;
