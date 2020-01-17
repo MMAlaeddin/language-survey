@@ -3,7 +3,16 @@
 }
 
 .jumbotron {
-    background-color: blueviolet;
-    color: lime;
-    border-radius: 2%;
+    background-color: rgb(178, 223)83, 1;
+    color: white;
+    background-image: url(../img/title.jpg);
+    font-family: monospace;
+    text-align: center
 }
+
+.question {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+
+}
+
