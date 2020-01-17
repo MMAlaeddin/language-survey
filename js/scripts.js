@@ -19,10 +19,8 @@ $(document).ready(function() {
       $("#plus").show();
       $("#sharp").hide();
       $("#java").hide();
-    }
-    
+  }
 
-    
   event.preventDefault();
   });
 });
