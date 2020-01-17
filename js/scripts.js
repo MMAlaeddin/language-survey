@@ -15,11 +15,11 @@ $(document).ready(function() {
       $("#sharp").show();
       $("#plus").hide();
       $("#java").hide();
-    }else if(code1 === "game")
+    }else{(code1 === "game")
       $("#plus").show();
       $("#sharp").hide();
       $("#java").hide();
-    
+  }
   event.preventDefault();
   });
 });
