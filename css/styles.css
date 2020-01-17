@@ -19,6 +19,33 @@
 .answer {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 300px;
+    font-size: 18px;
 }
 
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(8, 50, 238);
+}
 
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #2194a8;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
