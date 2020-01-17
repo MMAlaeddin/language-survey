@@ -6,6 +6,14 @@ $(document).ready(function(){
     var code4 = $("input:radio[name=code4]:checked").val();
     var code5 = $("input:radio[name=code5]:checked").val();
 
-    
+    if(code1 === design && code2 === colors && code3 === no && code4 === mario && code5 === fruits){
+      $("#java").show();
+      $("sharp").hide();
+      $("plus").hide();
+    }else if(code1 === make && code2 === solve && code3 === know && code4 === arthos && code5 === nachos){
+      $("#plus").show();
+      $("#sharp").hide();
+      $("#java").hide();
+    }
   })      
 })
