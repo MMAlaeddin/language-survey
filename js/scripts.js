@@ -6,7 +6,6 @@ $(document).ready(function() {
     var code4 = $("input:radio[name=code4]:checked").val();
     var code5 = $("input:radio[name=code5]:checked").val();
 
-
     if(code1 === "design"){
       $("#java").show();
       $("#sharp").hide();
@@ -21,6 +20,15 @@ $(document).ready(function() {
       $("#java").hide();
     }else{
       $(code1).empty();
+      alert("YOU FORGOT TO ANSWER!");
+      $(code2).empty();
+      alert("YOU FORGOT TO ANSWER!");
+      $(code3).empty();
+      alert("YOU FORGOT TO ANSWER!");
+      $(code4).empty();
+      alert("YOU FORGOT TO ANSWER!");
+      $(code5).empty();
+      alert("YOU FORGOT TO ANSWER!");
   }
   event.preventDefault();
   });
