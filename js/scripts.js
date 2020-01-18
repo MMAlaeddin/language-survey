@@ -21,14 +21,14 @@ $(document).ready(function() {
     }else{
       $(code1).empty();
       alert("YOU FORGOT TO ANSWER!");
-      $(code2).empty();
-      alert("YOU FORGOT TO ANSWER!");
-      $(code3).empty();
-      alert("YOU FORGOT TO ANSWER!");
-      $(code4).empty();
-      alert("YOU FORGOT TO ANSWER!");
-      $(code5).empty();
-      alert("YOU FORGOT TO ANSWER!");
+      // $(code2).empty();
+      // alert("YOU FORGOT TO ANSWER!");
+      // $(code3).empty();
+      // alert("YOU FORGOT TO ANSWER!");
+      // $(code4).empty();
+      // alert("YOU FORGOT TO ANSWER!");
+      // $(code5).empty();
+      // alert("YOU FORGOT TO ANSWER!");
   }
   event.preventDefault();
   });
